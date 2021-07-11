@@ -14,7 +14,7 @@ title: Project Template
 ---
 
 ## Team
--  E/17/005, M.I.Rishard, [email](mailto:name@email.com)
+-  E/17/005, M.I.Rishard, [email](mailto:e17005@eng.pdn.ac.lk)
 -  E/17/327, A.M.F.Shalha, [email](mailto:name@email.com)
 -  E/17/379, S.P.D.D.S.Weerasinghe, [email](mailto:name@email.com)
 
