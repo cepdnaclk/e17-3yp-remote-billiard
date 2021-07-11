@@ -4,7 +4,7 @@ permalink: index.html
 
 # Please update this with your repository name and project title
 repository-name: e17-3yp-Remote-Billiard
-title: Project Template
+title: Remote-Billiard
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
@@ -35,7 +35,7 @@ title: Project Template
 
 ## Introduction
 
-Description of the real world problem and solution, impact
+"Remote-Billiard" is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project "Remote-Billiard" solves this problem. Players can play their game physically at their own places individually.
 
 
 ## Solution Architecture
