@@ -14,9 +14,9 @@ title: Project Template
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/17/005, M.I.Rishard, [email](mailto:name@email.com)
+-  E/17/327, A.M.F.Shalha, [email](mailto:name@email.com)
+-  E/17/379, S.P.D.D.S.Weerasinghe, [email](mailto:name@email.com)
 
 <!-- Image (photo/drawing of the final hardware) should be here -->
 
