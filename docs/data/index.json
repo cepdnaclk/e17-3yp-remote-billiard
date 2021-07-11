@@ -12,7 +12,7 @@
             "name": "Shalha.A.M.F",
             "email": "e17327@eng.pdn.ac.lk",
             "eNumber": "E/17/327",
-            "github_profile":"#",
+            "github_profile":"https://github.com/fshalha/e17-3yp-remote-billiard",
             "linkedin_profile":"#",
             "website": "#"
         },
@@ -27,9 +27,9 @@
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
+            "name": "Dr. Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk",
+            "linkedin_profile":"https://lk.linkedin.com/in/isuru-nawinne-73302833",
             "website": "#",
             "researchgate_profile":"#"
         },
