@@ -3,7 +3,7 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and project title
-repository-name: eYY-3yp-project-template
+repository-name: e17-3yp-Remote-Billiard
 title: Project Template
 ---
 
