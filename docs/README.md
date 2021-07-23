@@ -39,8 +39,8 @@ title: Remote-Billiard
 
 
 ## Solution Architecture
-
-![model](docs/images/solution architecture.png)
+---
+![solution architecture](docs/images/solution architecture.png)
 
 ## Hardware and Software Designs
 
