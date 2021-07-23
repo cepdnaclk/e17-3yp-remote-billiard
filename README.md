@@ -43,12 +43,12 @@ title: Project Template
 
 -Online games do not help to improve the required skills.
 
-
+---
 ## Solution 
 Allows players to play the same pool game while being at different locations.After one player plays a shot, the ball arrangement of the board is captured and this image is then processed and is projected onto the next players’ pool board. Then this player will arrange the balls according to the projected image and will start playing his shot.
 
 ![solution](docs/images/solution.png)
-
+---
 
 
 
