@@ -31,9 +31,13 @@ title: Project Template
 
 ## Problems
 -Busy schedules
+
 -Unreachable distances between players
+
 -Pandemic situation
+
 -Online billiard games do not provide the expected physical experience.
+
 -Online games do not help to improve the required skills.
 
 
