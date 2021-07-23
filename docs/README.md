@@ -40,7 +40,7 @@ title: Remote-Billiard
 
 ## Solution Architecture
 
-High level diagram + description
+![model](docs/images/solution architecture.png)
 
 ## Hardware and Software Designs
 
