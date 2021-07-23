@@ -12,6 +12,8 @@ title: Project Template
 # Remote Billiard
 
 ---
+# Our Setup
+
 ![model](docs/images/POOL.13.jpg)
 ## Team
 -  E/17/005, Ahamed M.I.R, [e17005@eng.pdn.ac.lk](e17005@eng.pdn.ac.lk)
