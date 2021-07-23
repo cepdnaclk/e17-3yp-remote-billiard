@@ -46,6 +46,7 @@ title: Project Template
 ## Solution 
 Allows players to play the same pool game while being at different locations.After one player plays a shot, the ball arrangement of the board is captured and this image is then processed and is projected onto the next players’ pool board. Then this player will arrange the balls according to the projected image and will start playing his shot.
 
+![model](docs/images/solution.jpg)
 
 
 
