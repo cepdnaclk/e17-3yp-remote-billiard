@@ -26,7 +26,7 @@ title: Remote-Billiard
 
 #### Table of Contents
 1. [Introduction](#introduction)
-2. [Solution Architecture](#solution-architecture )
+2. [Solution Architecture](#solution-architecture)
 3. [Hardware & Software Designs](#hardware-and-software-designs)
 4. [Testing](#testing)
 5. [Detailed budget](#detailed-budget)
