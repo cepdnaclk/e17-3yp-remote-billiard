@@ -30,7 +30,15 @@ title: Project Template
 “Remote-Billiard” is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project “Remote-Billiard” solves this problem. Players can play their game physically at their own places individually.
 
 ## Problems
+-Busy schedules
+-Unreachable distances between players
+-Pandemic situation
+-Online billiard games do not provide the expected physical experience.
+-Online games do not help to improve the required skills.
 
 
 ## Soution 
+Allows players to play the same pool game while being at different locations.After one player plays a shot, the ball arrangement of the board is captured and this image is then processed and is projected onto the next players’ pool board. Then this player will arrange the balls according to the projected image and will start playing his shot.
+
+
 
