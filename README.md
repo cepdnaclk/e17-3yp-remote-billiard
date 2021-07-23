@@ -15,7 +15,7 @@ title: Project Template
 # Our Setup
 
 ![model](docs/images/POOL.13.jpg)
-
+---
 ## Team
 -  E/17/005, Ahamed M.I.R, [e17005@eng.pdn.ac.lk](e17005@eng.pdn.ac.lk)
 -  E/17/327, Shalha.A.M.F, [e17327@eng.pdn.ac.lk](e17327@eng.pdn.ac.lk)
