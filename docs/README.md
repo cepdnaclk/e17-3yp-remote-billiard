@@ -3,15 +3,15 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and project title
-repository-name: e17-3yp-Remote-Billiard
-title: Remote-Billiard
+repository-name: "e17-3yp-Remote-Billiard"
+title: Remote Billiard
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Remote-Billiard
+# Remote Billiard
 
----
+
 
 ## Team
 -  E/17/005, M.I.Rishard, [e17005@eng.pdn.ac.lk](mailto:name@email.com)
@@ -26,7 +26,7 @@ title: Remote-Billiard
 
 #### Table of Contents
 1. [Introduction](#introduction)
-2. [Solution Architecture](#solution-architecture )
+2. [Solution Architecture](#solution-architecture)
 3. [Hardware & Software Designs](#hardware-and-software-designs)
 4. [Testing](#testing)
 5. [Detailed budget](#detailed-budget)
@@ -35,12 +35,11 @@ title: Remote-Billiard
 
 ## Introduction
 
-"Remote-Billiard" is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project "Remote-Billiard" solves this problem. Players can play their game physically at their own places individually.
+"Remote Billiard" is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project "Remote Billiard" solves this problem. Players can play their game physically at their own places individually.
 
 
 ## Solution Architecture
 
-High level diagram + description
 
 ## Hardware and Software Designs
 
