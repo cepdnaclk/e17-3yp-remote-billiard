@@ -1,3 +1,4 @@
+#code to align and wrap captured image
 import cv2
 import numpy as np
 
