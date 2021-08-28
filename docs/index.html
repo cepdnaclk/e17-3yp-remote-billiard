@@ -535,6 +535,76 @@
 </section>
 
 <!--====== Budget ENDS ======-->
+<section id="about" class="about-area pt-115">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="about-content pt-45" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h1 class="welcome" style="text-align:center"><span>OpenCV Implementations </span></h1></br>
+                        <h2 class="welcome" style="text-align:center"><span>1. Supporter adjusment </span></h1></br>
+                        <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1">With the use of hight adjusting supporter and the aruco markers on the board we can calculate real world height from supporter plate to
+                        The board.When the height reached required value, a in openCV code a signal will generate. With that flag signal a indicator will light on the microcontroller. This is helpful for the accuracy of capturing the playing area  and to do the final projection.
+                            For this height detection function, camera calibration matrix and distortion values are needed as inputs.
+                                                  .</p>
+                    </div>
+                </div>
+            </div> <!-- row -->
+            <div align="center">
+                <div class="col-lg-12">
+                    <div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/1.png" alt="about" style="text-align:center">
+                    </div> <!-- about image --
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="about-content pt-45">
+                     <h2 class="welcome" style="text-align:center"><span>2. Projection area adjusment </span></h1></br>
+                     <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1"> Four aruco tags will be attached near corners of poolboard.</p>
+                     	<div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/tags.gif" alt="about" style="text-align:center">
+                        </div> 
+                    </div>
+                    <div class="about-content pt-45">
+                    	<p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1">And their coordinates are taken with their ID.<a href="https://github.com/cepdnaclk/e17-3yp-remote-billiard/blob/main/openCV%20implementations/Codes/detctaruco.py"><b> Link to the implementation</a></font></p>
+                    	<div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/values.png" alt="about" style="text-align:center">
+                        </div>
+                    </div>
+                    <div class="about-content pt-45">
+                    	<p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1">Then another set of aruco tags are projected on to the table, the cordinates of these aruco tags are matched with the existing aruco tags which were already pasted on the table.</font></p>
+                    	<div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/proj.gif" alt="about" style="text-align:center">
+                        </div>
+                    </div>
+                    <div class="about-content pt-45">
+                    	<p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1">If the projection alignment is right a signal will sent to the microcontroller to light up a LED.</font></p>
+                    </div>
+                    <div class="about-content pt-45">
+                     <h2 class="welcome" style="text-align:center"><span>3.Board area isolation and wrapping</span></h1></br>
+                     <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1"> To get the board area from the captured image. Corners were identified and using corner coordinates image was wraped. <a href="https://github.com/cepdnaclk/e17-3yp-remote-billiard/blob/main/openCV%20implementations/Codes/warp.py"><b> Link to the implementation</a></font></p></p>
+                     	<div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/3.png" alt="about" style="text-align:center">
+                        </div> 
+                    </div>
+                    <div class="about-content pt-45">
+                     <h2 class="welcome" style="text-align:center"><span>4.Ball colour detection isolation and generate processed image</span></h1></br>
+                     <p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1">  OpenCV trackbars are used to get the accurate colour levels of balls. <a href="https://github.com/cepdnaclk/e17-3yp-remote-billiard/blob/main/openCV%20implementations/Codes/trackbar.py"><b> Link to the implementation</a></font></p></p>
+                     	<div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/2.gif" alt="about" style="text-align:center">
+                        </div> 
+                    </div>
+                    <div class="about-content pt-45">
+                    	<p class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s"><font size="+1">Using those hsv valuse ball location were identified and locations are drawn on a white backbround. Final processed image is ready to sent. </font><a href="https://github.com/cepdnaclk/e17-3yp-remote-billiard/blob/main/openCV%20implementations/Codes/detectballs.py"><b> Link to the implementation</a></font></p><div class="about-image mt-60 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/opencv/2.png" alt="about" style="text-align:center">
+                        </div> 
+                        
+                    </div>
+                </div> <!-- about content -->
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
 <!--====== CONTACT PART START ======-->
 <section class="contact-area pt-120 pb-120" id="contact">
             <div class="container">
@@ -548,9 +618,9 @@
                             <img class="mx-auto rounded-circle" src="assets/images/team/2.jpeg" alt="..." />
                             <h4>M.I.Rishard</h4>
                             
+                             <a class="btn btn-dark btn-social mx-2" href="https://github.com/RishardAhamed"><i class="fa fa-github"></i></a>
+                             <a class="btn btn-dark btn-social mx-2" href="e17005@eng.pdn.ac.lk"><i class="fa fa-envelope"></i></a>
                             
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/Dilandds"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="e17379@eng.pdn.ac.lk"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -559,8 +629,8 @@
                             <h4>S.P.D.D.S.Weerasinghe</h4>
                            
                             
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/RishardAhamed"><i class="fa fa-linkedin"></i></a>
-                             <a class="btn btn-dark btn-social mx-2" href="e17005@eng.pdn.ac.lk"><i class="fa fa-envelope"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/Dilandds"><i class="fa fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="e17379@eng.pdn.ac.lk"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -568,7 +638,7 @@
                             <img class="mx-auto rounded-circle" src="assets/images/team/3.jpeg" alt="..." />
                             <h4>A.M.F.Shalha</h4>
                          
-                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/fshalha"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/fshalha"><i class="fa fa-github"></i></a>
                              <a class="btn btn-dark btn-social mx-2" href="e17327@eng.pdn.ac.lk"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
