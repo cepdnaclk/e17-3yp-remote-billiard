@@ -50,6 +50,14 @@ Allows players to play the same pool game while being at different locations.Aft
 ![solution](docs/images/solution.png)
 ---
 
+## Solution Overview 
+
+The camera module and the projector of one player is connected to the microcontroller.
+The microcontroller of one player is connected to another players microcontroller via the internet which goes accross a web server.
+Mobile applications of each players are connected with each other via the the internet which goes accross the web server.
+
+![overview](docs\images\overview.png)
+
 
 
 
