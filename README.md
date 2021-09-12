@@ -73,6 +73,27 @@ Indicators : GPIO pins
 
 ![circuit](docs/assets/images/design/Circuit.jpeg)
 ---
+## Testing plans
+### Software Tesing
+#### Mobile app
+
+- Check the Validity of log in details(email,password)
+
+#### Database and Server
+
+-Client and server connection establishment
+
+-Get details about currently available online users
+
+-Check database game history updates
+
+-Check server handling of multiple games happening between multiple pairs
+
+---
+## Bill Of Material
+
+![bill](docs/assets/images/bill/Bill-2.png)
+---
 
 ## Team
 -  E/17/005, Ahamed M.I.R, [e17005@eng.pdn.ac.lk](e17005@eng.pdn.ac.lk)
