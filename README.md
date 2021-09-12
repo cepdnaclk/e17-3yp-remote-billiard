@@ -56,7 +56,7 @@ Allows players to connect with opponent players by searching currently available
 ![app1](docs/assets/images/application-12.png)
 ---
 ## Hardware
-###Circuit Diagram
+### Circuit Diagram
 
 Raspberry Pi 3 B+ : Controller system.
 
@@ -71,7 +71,7 @@ Cooling Fan : GPIO pins
 Indicators : GPIO pins
 
 
-![circuit](docs/assets/images/design/Circuit.jpg)
+![circuit](docs/assets/images/design/Circuit.jpeg)
 ---
 
 ## Team
