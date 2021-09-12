@@ -49,7 +49,12 @@ Mobile applications of each players are connected with each other via the the in
 
 ![overview](docs/images/overview.png)
 ---
+## Mobile Application 
+Allows players to connect with opponent players by searching currently available online players.When the game is start both of the players can see the opponent players pool table throught the mobile application.If a player detect a foul he can use call for foul option.Chat option will help player to communicate with the opponent player.
 
+![app1](docs/assets/images/application-1.png)
+![app1](docs/assets/images/application-12.png)
+---
 ## Team
 -  E/17/005, Ahamed M.I.R, [e17005@eng.pdn.ac.lk](e17005@eng.pdn.ac.lk)
 -  E/17/327, Shalha.A.M.F, [e17327@eng.pdn.ac.lk](e17327@eng.pdn.ac.lk)
