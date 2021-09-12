@@ -10,15 +10,15 @@ title: Project Template
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
 # Remote Billiard
+## Introduction
+
+“Remote-Billiard” is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project “Remote-Billiard” solves this problem. Players can play their game physically at their own places individually.
 
 ---
 # Our Setup
 
 ![model](docs/images/POOL.13.jpg)
 ---
-
-## Introduction
-“Remote-Billiard” is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project “Remote-Billiard” solves this problem. Players can play their game physically at their own places individually.
 
 ## Problems
 
@@ -107,4 +107,4 @@ Allows players to connect with opponent players by searching currently available
 
 ## LINKS
 - [Project Page](https://cepdnaclk.github.io/e17-3yp-remote-billiard/)
-
+- [Department Web Site](http://www.ce.pdn.ac.lk/)
