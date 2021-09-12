@@ -22,15 +22,15 @@ title: Project Template
 
 ## Problems
 
--Busy schedules
+- Busy schedules
 
--Unreachable distances between players
+- Unreachable distances between players
 
--Pandemic situation
+- Pandemic situation
 
--Online billiard games do not provide the expected physical experience.
+- Online billiard games do not provide the expected physical experience.
 
--Online games do not help to improve the required skills.
+- Online games do not help to improve the required skills.
 
 Usually if a pool game is supposed to be played, the players should physically be present. But the issue is not everyone has the luxury of time to attend a game due to various reasons. In this case, the least thing that they could do is play the game online via a mobile or a PC with their friends. But if you ask such players whether the experience was satisfying, they would definitely say no! So to avoid this issue we have planned to give the player the so called Physical experience at their own comfort zones. According to our plan we will be solving a lot of problems such as the issue with time, travelling issue, could reduce expenses and will be able to provide the player the real physical experience which would be a great chance to enhance their skills at the same time would be more fun than online games. Therefore in overall , Remote-Billiard project solves these problems.
 
@@ -58,22 +58,22 @@ Allows players to connect with opponent players by searching currently available
 ## Hardware
 ### Circuit Diagram
 
-Raspberry Pi 3 B+ : Controller system.
+- Raspberry Pi 3 B+ : Controller system.
 
-Camera Module : CSI Port.
+- Camera Module : CSI Port.
 
-Mini Projector : HDMI port.
+- Mini Projector : HDMI port.
 
-Power Supply : Micro USB port
+- Power Supply : Micro USB port
 
-Cooling Fan : GPIO pins
+- Cooling Fan : GPIO pins
 
-Indicators : GPIO pins
+- Indicators : GPIO pins
 
 
 ![circuit](docs/assets/images/design/Circuit.jpeg)
 ---
-## Testing plans
+## Testing plan
 ### Software Tesing
 #### Mobile app
 
@@ -81,13 +81,13 @@ Indicators : GPIO pins
 
 #### Database and Server
 
--Client and server connection establishment
+- Client and server connection establishment
 
--Get details about currently available online users
+- Get details about currently available online users
 
--Check database game history updates
+- Check database game history updates
 
--Check server handling of multiple games happening between multiple pairs
+- Check server handling of multiple games happening between multiple pairs
 
 ---
 ## Bill Of Material
