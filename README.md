@@ -57,7 +57,7 @@ The microcontroller of one player is connected to another players microcontrolle
 Mobile applications of each players are connected with each other via the the internet which goes accross the web server.
 
 ![overview](docs\images\overview.png)
-
+---
 
 
 
