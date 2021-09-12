@@ -21,6 +21,7 @@ title: Project Template
 “Remote-Billiard” is a project which provides usual Billiard game experience via online platform.Not all the players could be in the same place to play a billiard game now a days. Project “Remote-Billiard” solves this problem. Players can play their game physically at their own places individually.
 
 ## Problems
+
 -Busy schedules
 
 -Unreachable distances between players
@@ -30,6 +31,8 @@ title: Project Template
 -Online billiard games do not provide the expected physical experience.
 
 -Online games do not help to improve the required skills.
+
+Usually if a pool game is supposed to be played, the players should physically be present. But the issue is not everyone has the luxury of time to attend a game due to various reasons. In this case, the least thing that they could do is play the game online via a mobile or a PC with their friends. But if you ask such players whether the experience was satisfying, they would definitely say no! So to avoid this issue we have planned to give the player the so called Physical experience at their own comfort zones. According to our plan we will be solving a lot of problems such as the issue with time, travelling issue, could reduce expenses and will be able to provide the player the real physical experience which would be a great chance to enhance their skills at the same time would be more fun than online games. Therefore in overall , Remote-Billiard project solves these problems.
 
 ---
 ## Solution 
