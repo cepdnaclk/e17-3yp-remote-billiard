@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import './ChatPage.dart';
 import './HomePage.dart';
 import'./ExitPage.dart';
+import'./ChoosePocket.dart';
+
 void main() => runApp(MyMaterial());
 
 class MyMaterial extends StatelessWidget {
@@ -13,6 +15,7 @@ class MyMaterial extends StatelessWidget {
       routes:{
         HomePage.id:(context)=>HomePage(),
          //ChatPage.id:(context)=>ChatPage(),
+         ChoosePocket.id:(context)=>ChoosePocket(),
        ExitPage.id:(context)=>ExitPage(),
 
       }
