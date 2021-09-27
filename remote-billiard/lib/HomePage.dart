@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './ExitPage.dart';
+import './SelectOptions.dart';
 
 class HomePage extends StatelessWidget {
   static const String id = 'HomePage';
@@ -16,11 +16,12 @@ class HomePage extends StatelessWidget {
           // By defaut, Scaffold background is white
           // Set its value to transparent
           backgroundColor: Colors.transparent,
-          body: Center(
-              child: Column(children: <Widget>[
-            SizedBox(
-              height: size.height * 0.5,
-            ),
+          body: Center(child:Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+
+          children: <Widget>[
+           
             Text(
               "Remote Billiard",
               style: TextStyle(
@@ -62,7 +63,7 @@ class HomePage extends StatelessWidget {
                 textColor: Colors.black,
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => ExitPage()));
+                      MaterialPageRoute(builder: (context) => SelectOptions()));
                 },
               ),
             ),

@@ -1,4 +1,4 @@
-name: real_chat_flutter
+name: remote_billiard
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -19,7 +19,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    
+  yoyo_player: ^0.1.0
+  google_fonts: 1.1.1  
   cupertino_icons: ^0.1.2
   flutter_socket_io: ^0.6.0
   fluttertoast: ^8.0.8
