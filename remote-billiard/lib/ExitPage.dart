@@ -1,6 +1,6 @@
    
 import 'package:flutter/material.dart';
-
+import './SelectOptions.dart';
 
 
 class ExitPage extends StatefulWidget {
@@ -13,7 +13,7 @@ class ExitPage extends StatefulWidget {
 class _ExitPageState extends State<ExitPage> {
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+    //Size size = MediaQuery.of(context).size;
     return Container(
      
      decoration: BoxDecoration(
@@ -25,10 +25,11 @@ class _ExitPageState extends State<ExitPage> {
           // By defaut, Scaffold background is white
           // Set its value to transparent
           backgroundColor: Colors.transparent,
-          body: Center(child:Column(children:<Widget>[
-             SizedBox(
-              height: size.height * 0.5,
-            ),
+           body: Center(child:Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children:<Widget>[
+            
             
             Container(
              margin: EdgeInsets.all(25), 
@@ -54,9 +55,9 @@ class _ExitPageState extends State<ExitPage> {
                 color: Colors.blue[200],  
                 textColor: Colors.black,  
                 onPressed: () {
-                  //Navigator.push(context,
-                  //MaterialPageRoute(builder:(context)=>FindPlayerPage())
-                  //);
+                  Navigator.push(context,
+                  MaterialPageRoute(builder:(context)=>SelectOptions())
+                  );
 
                 },  
               ),  
