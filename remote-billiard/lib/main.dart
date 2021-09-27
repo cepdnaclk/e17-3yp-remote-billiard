@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import './ChatPage.dart';
 import './HomePage.dart';
-import './ExitPage.dart';
 import './SelectOptions.dart';
 import './FindPlayer.dart';
 import './Toss.dart';
-
+import './PlayerPage.dart';
+import './ChoosePocket.dart';
+import './ChatPage.dart';
+import './ExitPage.dart';
 void main() => runApp(MyMaterial());
 
 class MyMaterial extends StatelessWidget {
@@ -13,14 +14,17 @@ class MyMaterial extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: Toss.id,
+        initialRoute: HomePage.id,
         routes: {
           HomePage.id: (context) => HomePage(),
-          //ChatPage.id:(context)=>ChatPage(),
-          ExitPage.id: (context) => ExitPage(),
           SelectOptions.id: (context) => SelectOptions(),
           FindPlayer.id: (context) => FindPlayer(),
-          Toss.id: (context) => Toss(),
+          Toss.id:(context)=>Toss(),
+          PlayerPage.id:(context)=>PlayerPage(),
+          ChoosePocket.id:(context)=>ChoosePocket(),
+          ChatPage.id:(context)=>ChatPage(),
+          ExitPage.id: (context) => ExitPage(),
+          
         });
   }
 }

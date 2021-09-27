@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import './ExitPage.dart';
+import 'package:remote_billiard/PlayerPage.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class Toss extends StatelessWidget {
   static const String id = 'Toss';
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+   
     return Container(
       decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -86,7 +86,7 @@ class Toss extends StatelessWidget {
                     textColor: Colors.black,
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => ExitPage()));
+                          MaterialPageRoute(builder: (context) => PlayerPage()));
                     },
                   ),
                 )

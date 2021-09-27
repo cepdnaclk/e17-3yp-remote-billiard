@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import './ExitPage.dart';
+import 'package:remote_billiard/FindPlayer.dart';
+import './FindPlayer.dart';
+import './Toss.dart';
 
 class SelectOptions extends StatelessWidget {
   static const String id = 'SelectOptions';
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+    //Size size = MediaQuery.of(context).size;
     return Container(
       decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -62,7 +64,7 @@ class SelectOptions extends StatelessWidget {
                     textColor: Colors.black,
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => ExitPage()));
+                          MaterialPageRoute(builder: (context) => FindPlayer()));
                     },
                   ),
                 ),
@@ -77,11 +79,11 @@ class SelectOptions extends StatelessWidget {
                     textColor: Colors.black,
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => ExitPage()));
+                          MaterialPageRoute(builder: (context) => Toss()));
                     },
                   ),
                 ),
-                Container(
+               /* Container(
                   margin: EdgeInsets.all(25),
                   child: FlatButton(
                     child: Text(
@@ -95,7 +97,7 @@ class SelectOptions extends StatelessWidget {
                           MaterialPageRoute(builder: (context) => ExitPage()));
                     },
                   ),
-                )
+                )*/
               ]))),
     );
   }
