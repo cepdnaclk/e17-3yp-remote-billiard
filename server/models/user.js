@@ -7,10 +7,19 @@ var userSchema = new Schema({
         type: String,
         require: true
     },
+   
+    email: { //model
+        type: String,
+        require: true
+    },
     password: {
         type: String,
         require: true
-    }
+    },
+    dob: { //model
+        type: String,
+        require: true
+    },
 })
 //save the given password as a encripted password
 userSchema.pre('save', function (next) {
