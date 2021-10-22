@@ -59,7 +59,20 @@ var functions = {
         else {
             return res.json({success: false, msg: 'No Headers'})
         }
-    }
+    },
+    getallUsers:function(req,res){
+     User.find().select("name")
+     
+     .then((users)=>{
+        res.status(200).json({users:users})
+    })
+    .catch(err=>console.log(err));
+
+
+     }
+   
+
+    
 }
 
 module.exports = functions // to use in elsewhere
