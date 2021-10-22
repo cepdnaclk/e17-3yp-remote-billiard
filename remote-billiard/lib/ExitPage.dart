@@ -16,11 +16,11 @@ class _ExitPageState extends State<ExitPage> {
     //Size size = MediaQuery.of(context).size;
     return Container(
      
-     decoration: BoxDecoration(
+   decoration: BoxDecoration(
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Colors.blue, Colors.black])),
+              colors: [Colors.grey[900], Colors.blue[900]])),
       child: Scaffold(
           // By defaut, Scaffold background is white
           // Set its value to transparent
@@ -46,7 +46,7 @@ class _ExitPageState extends State<ExitPage> {
                   fontSize: 10,
                   fontFamily: "Open sans",
                   letterSpacing: 5,
-                  color: Colors.blue[100],
+                  color: Colors.white,
                 ),) , 
             Container(  
               margin: EdgeInsets.all(25),  

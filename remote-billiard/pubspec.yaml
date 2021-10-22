@@ -14,17 +14,22 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  yoyo_player: ^0.1.0
   google_fonts: 1.1.1  
   cupertino_icons: ^0.1.2
   flutter_socket_io: ^0.6.0
   fluttertoast: ^8.0.8
-
+  http: ^0.12.1
+  web_socket_channel: "^1.0.8"
+  logger: ^1.1.0
+  email_validator: ^2.0.1
+  google_sign_in: ^5.1.0
+  flutter_bluetooth_serial: ^0.4.0
+  video_player: ^0.10.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
