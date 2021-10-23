@@ -48,6 +48,7 @@ The microcontroller of one player is connected to another players microcontrolle
 Mobile applications of each players are connected with each other via the the internet which goes accross the web server.
 
 ![overview](docs/images/overview.png)
+
 ---
 ## Mobile Application 
 Allows players to connect with opponent players by searching currently available online players.When the game is start both of the players can see the opponent players pool table throught the mobile application.If a player detect a foul he can use call for foul option.Chat option will help player to communicate with the opponent player.Flutter is used to develop the mobile application.
@@ -65,6 +66,7 @@ Allows players to connect with opponent players by searching currently available
 - Mini Projector : HDMI port.
 
 - Power Supply : Micro USB port
+
 
 - Cooling Fan : GPIO pins
 
