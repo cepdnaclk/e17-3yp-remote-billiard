@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:remote_billiard/bluetooth_conn/bluetoothConn.dart';
-import 'package:remote_billiard/bluetooth_conn/bluetoothConn.dart';
+import 'package:remote_billiard/Connect_with_device/Bluetooth_connection.dart';
+
 
 class bconnectdevice extends StatelessWidget {
   static const String id = 'bconnectdevice';

@@ -1,7 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:remote_billiard/backEnd_conn/game_communication.dart';
+import 'package:remote_billiard/Connect_with_server/Game_connection.dart';
 class ChoosePocket extends StatefulWidget {
   static const String id = 'ChoosePocket';
    const ChoosePocket ({

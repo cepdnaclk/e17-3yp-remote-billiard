@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'backEnd_conn/game_communication.dart';
-import 'customcard.dart';
+import 'Connect_with_server/Game_connection.dart';
+import 'Customcard.dart';
 
 class FindPlayer extends StatefulWidget {
   static const String id = 'FindPlayer';

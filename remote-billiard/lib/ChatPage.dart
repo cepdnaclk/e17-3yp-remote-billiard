@@ -3,18 +3,17 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_socket_io/flutter_socket_io.dart';
 import 'package:flutter_socket_io/socket_io_manager.dart';
-import 'package:remote_billiard/backEnd_conn/game_communication.dart';
+import 'package:remote_billiard/Connect_with_server/Game_connection.dart';
 
 class ChatPage extends StatefulWidget {
-   static const String id='ChatPage';
-    ChatPage({
+  static const String id = 'ChatPage';
+  ChatPage({
     Key key,
-     this.opponentName,
-      this.opponentId,
-
+    this.opponentName,
+    this.opponentId,
   }) : super(key: key);
-final String opponentName;
-final String opponentId;
+  final String opponentName;
+  final String opponentId;
 
   @override
   _ChatPageState createState() => _ChatPageState();
@@ -22,67 +21,61 @@ final String opponentId;
 
 class _ChatPageState extends State<ChatPage> {
   SocketIO socketIO;
-  List<String> messages=[];
+  List<String> messages = [];
   double height, width;
   TextEditingController textController;
   ScrollController scrollController;
 
   @override
   void initState() {
-
-   
     //Initializing the TextEditingController and ScrollController
-   
+
     //Creating the socket
-       game.addListener(_receivemessage);
-        textController = TextEditingController();
+    game.addListener(_receivemessage);
+    textController = TextEditingController();
     scrollController = ScrollController();
     //Connect to the socket
     //socketIO.connect();
     super.initState();
   }
+
   _receivemessage(message) {
     print(message);
     switch (message["action"]) {
-   
-    case 'receiveChat':
+      case 'receiveChat':
 
-      // ignore: deprecated_member_use
-   // messages = List<String>();
-     var data = message["data"];
-    // var chat=data["message"];
-     this.setState(() => messages.add("$data;2"));
-      scrollController.animateTo(
-        scrollController.position.maxScrollExtent,
-        duration: Duration(milliseconds: 600),
-        curve: Curves.ease,
-      );
-    /*textController = TextEditingController();
+        // ignore: deprecated_member_use
+        // messages = List<String>();
+        var data = message["data"];
+        // var chat=data["message"];
+        this.setState(() => messages.add("$data;2"));
+        scrollController.animateTo(
+          scrollController.position.maxScrollExtent,
+          duration: Duration(milliseconds: 600),
+          curve: Curves.ease,
+        );
+        /*textController = TextEditingController();
     scrollController = ScrollController();*/
         // split message data
-       
+
         break;
     }
   }
 
   Widget buildSingleMessage(int index) {
-   var chat= messages[index].split(";");
-    String number=chat[1];
+    var chat = messages[index].split(";");
+    String number = chat[1];
     return Container(
-     alignment: (number == "1")
-          ?Alignment.centerRight
-          :Alignment.centerLeft , 
+      alignment: (number == "1") ? Alignment.centerRight : Alignment.centerLeft,
       child: Container(
         padding: const EdgeInsets.all(20.0),
-        margin: const EdgeInsets.only(bottom: 20.0, left: 20.0,right:20),
+        margin: const EdgeInsets.only(bottom: 20.0, left: 20.0, right: 20),
         decoration: BoxDecoration(
           color: Colors.blue[900],
           borderRadius: BorderRadius.circular(20.0),
         ),
-        
         child: Text(
-        
-           chat[0] ?? "",
+          chat[0] ?? "",
           style: TextStyle(color: Colors.white, fontSize: 15.0),
         ),
       ),
@@ -124,9 +117,9 @@ class _ChatPageState extends State<ChatPage> {
         //Check if the textfield has text or not
         if (textController.text.isNotEmpty) {
           //Send the message as JSON data to send_message event
-           game.send('chatmessage', textController.text);
+          game.send('chatmessage', textController.text);
           //Add the message to the list
-         var sendtext=textController.text;
+          var sendtext = textController.text;
           //Add the message to the list
           this.setState(() => messages.add("$sendtext;1"));
           textController.text = '';
@@ -165,7 +158,7 @@ class _ChatPageState extends State<ChatPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
-          title: Text(widget.opponentName ?? ""),
+        title: Text(widget.opponentName ?? ""),
       ),
       body: SingleChildScrollView(
         child: Column(
