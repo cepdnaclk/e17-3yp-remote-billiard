@@ -30,8 +30,10 @@ dependencies:
   google_sign_in: ^5.1.0
   flutter_bluetooth_serial: ^0.4.0
   video_player: ^0.10.1
+ 
 dev_dependencies:
   flutter_test:
+  
     sdk: flutter
 
 

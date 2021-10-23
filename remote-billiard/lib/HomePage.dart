@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:remote_billiard/loginScreen.dart';
+import 'package:remote_billiard/LoginPage.dart';
 
 class HomePage extends StatelessWidget {
   static const String id = 'HomePage';

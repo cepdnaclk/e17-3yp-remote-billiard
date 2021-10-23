@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:remote_billiard/FindPlayer.dart';
-import 'package:remote_billiard/PlayerDataScreen.dart';
+import 'package:remote_billiard/OnlinePlayerDetailsPage.dart';
 import './FindPlayer.dart';
-import 'backEnd_conn/game_communication.dart';
+import 'Connect_with_server/Game_connection.dart';
 
 class SelectOptions extends StatelessWidget {
   static const String id = 'SelectOptions';
