@@ -43,7 +43,7 @@ Allows players to play the same pool game while being at different locations.Aft
 
 ## Solution Overview 
 
-![overview](docs/images/solov.png)
+![overview](docs/assets/images/solov.png)
 
 ---
 ## Mobile Application 
