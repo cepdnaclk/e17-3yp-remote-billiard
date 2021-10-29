@@ -49,9 +49,9 @@ Allows players to play the same pool game while being at different locations.Aft
 ![overview](docs/assets/images/solov.png)
 
 ---
-## cloud Deployment
+## Cloud Deployment
 
-![cloud](docs/assets/images/solov.png)
+![cloud](docs/assets/images/assets/images/cloud deployemnt (1).png)
 
 ---
 ## Mobile Application 
