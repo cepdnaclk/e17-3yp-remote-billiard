@@ -49,7 +49,11 @@ Allows players to play the same pool game while being at different locations.Aft
 ![overview](docs/assets/images/solov.png)
 
 ---
+## cloud Deployment
 
+![cloud](docs/assets/images/solov.png)
+
+---
 ## Mobile Application 
 Allows players to connect with opponent players by searching currently available online players.When the game is start both of the players can see the opponent players pool table throught the mobile application.If a player detect a foul he can use call for foul option.Chat option will help player to communicate with the opponent player.Flutter is used to develop the mobile application.
 
