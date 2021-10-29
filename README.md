@@ -51,7 +51,7 @@ Allows players to play the same pool game while being at different locations.Aft
 ---
 ## Cloud Deployment
 
-![cloud deployment](docs/assets/images/cloud deployemnt (1).png)
+![clouddeployment](docs/assets/images/cloud deployemnt (1).png)
 
 ---
 ## Mobile Application 
