@@ -32,6 +32,9 @@ title: Project Template
 
 - Online games do not help to improve the required skills.
 
+- Wastage of money and resources in conducting global events( Games)
+
+
 Usually if a pool game is supposed to be played, the players should physically be present. But the issue is not everyone has the luxury of time to attend a game due to various reasons. In this case, the least thing that they could do is play the game online via a mobile or a PC with their friends. But if you ask such players whether the experience was satisfying, they would definitely say no! So to avoid this issue we have planned to give the player the so called Physical experience at their own comfort zones. According to our plan we will be solving a lot of problems such as the issue with time, travelling issue, could reduce expenses and will be able to provide the player the real physical experience which would be a great chance to enhance their skills at the same time would be more fun than online games. Therefore in overall , Remote-Billiard project solves these problems.
 
 ---
@@ -43,18 +46,16 @@ Allows players to play the same pool game while being at different locations.Aft
 
 ## Solution Overview 
 
-The camera module and the projector of one player is connected to the microcontroller.
-The microcontroller of one player is connected to another players microcontroller via the internet which goes accross a web server.
-Mobile applications of each players are connected with each other via the the internet which goes accross the web server.
-
-![overview](docs/images/overview.png)
+![overview](docs/assets/images/solov.png)
 
 ---
+
 ## Mobile Application 
 Allows players to connect with opponent players by searching currently available online players.When the game is start both of the players can see the opponent players pool table throught the mobile application.If a player detect a foul he can use call for foul option.Chat option will help player to communicate with the opponent player.Flutter is used to develop the mobile application.
 
-![app1](docs/assets/images/application-1.png)
-![app1](docs/assets/images/application-12.png)
+![app1](docs/assets/images/testings/mobileapp1.png)
+![app1](docs/assets/images/ui2.png)
+![app1](docs/assets/images/ux3.png)
 ---
 ## Hardware
 ### Circuit Diagram
@@ -73,7 +74,7 @@ Allows players to connect with opponent players by searching currently available
 - Indicators : GPIO pins
 
 
-![circuit](docs/assets/images/design/Circuit.jpeg)
+![circuit](docs/assets/images/CIRCUIT.png)
 ---
 ## Testing plan
 ### Software Tesing
